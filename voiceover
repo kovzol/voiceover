@@ -1,6 +1,6 @@
 #!/bin/sh
 # Voice-over translator for SRT subtitles
-# Copyright (C) 2012, 2015 Zoltan Kovacs <kovzol@particio.com>
+# Copyright (C) 2012, 2015 Zoltan Kovacs <zoltan@geogebra.org>
 # This is a GPL3+ free software.
 # Version 0.4 (2016-02-06) Checking prerequisites correctly, removing Google Translator (API no longer available)
 # Version 0.3 (2012-03-01) Using Google Translator
@@ -11,7 +11,7 @@ WORKDIR=/tmp/voiceover-work
 
 if [ $# != 5 -a $# != 7 ]; then
  echo "Voice-over translator for SRT subtitles"
- echo "Copyright (C) 2012 Zoltan Kovacs <kovzol@particio.com>"
+ echo "Copyright (C) 2012 Zoltan Kovacs <zoltan@geogebra.org>"
  echo
  echo "Usage: $0 subtitles speed language encoding output [video volume]"
  echo
